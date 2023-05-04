@@ -11,7 +11,7 @@ void printarray(int arr[], int size){
 
 
 int main(){
-
+    // I am niti
     // array creation 
     //int arr[5];
     //int arr1[5] = {1,2,3,4,5};
