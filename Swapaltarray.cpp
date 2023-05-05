@@ -6,7 +6,8 @@ void SwapaltArray(int arr[], int n){
 
     while(i<n){
 
-        for ( i+1 < n){
+        if ( i+1 < n){
+            
             swap(arr[i],arr[i+1]);
         }
         i = i+2;
@@ -14,6 +15,8 @@ void SwapaltArray(int arr[], int n){
     
     
 }
+
+
 
 
 int main(){
